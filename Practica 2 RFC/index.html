@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/scrpit.js"></script>
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <title>PRACTICA 2 - RFC / AJAX</title>
+
+        <body>
+            <h1>PRACTICA 2</h1>
+
+            <div class="Contenedor1">
+                <h3 class="titulo1">RFC</h3>
+                <label>NOMBRE:</label><br>
+                <input type="text" name="nombre" id="nom" style="text-transform: uppercase;"><br><br>
+                <label>APELLIDO PAT:</label><br>
+                <input type="text" name="apellidop" id="app" style="text-transform: uppercase;"><br><br>
+                <label>APELLIDO MAT:</label><br>
+                <input type="text" name="apellidom" id="apm" style="text-transform: uppercase;"><br><br>
+                <label>FECHA DE NACIMIENTO</label><br>
+                <input type="date" name="fechanac" id="fech"><br><br>
+                <button id="btn">GENERAR</button> <button id="limp">LIMPIAR</button><br><br>
+                <label>RFC</label><br>
+                <input type="text" id="rfc" style="text-transform: uppercase;">
+            </div>
+
+            <div class="Contenedor2"><h3>AJAX API - REST</h2>
+                <label>ID:</label><br>
+                <input type="text" id="buscar"><br><br>
+                <button id="btn2">CONSULTAR API REST</button> <button id="btn3">LIMPIAR</button><br><br>
+                <label>NOMBRE:</label><br>
+                <p id="name"></p><br><br>
+                <label>EMAIL:</label><br>
+                <p id="email"></p>  
+            </div>
+
+        </body>
+    </head>
+</html>
